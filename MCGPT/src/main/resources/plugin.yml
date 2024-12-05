@@ -1,0 +1,23 @@
+name: MCGPT
+version: '1.0'
+main: org.ledat.mCGPT.MCGPT
+api-version: '1.19'
+authors: [ zonecluck ]
+website: facebook.com/zonecluck
+commands:
+  chatgpt:
+    description: Bật/tắt ChatGPT trong Minecraft
+    usage: /chatgpt
+    permission: mcgpt.toggle
+  chatgptreload:
+    description: Tải lại cấu hình plugin
+    usage: /chatgptreload
+    permission: mcgpt.reload
+
+permissions:
+  mcgpt.toggle:
+    description: Cho phép người chơi bật/tắt ChatGPT
+    default: true
+  mcgpt.reload:
+    description: Cho phép tải lại cấu hình
+    default: op

@@ -1,0 +1,13 @@
+openai-api-key: "YOUR_API_KEY_HERE" # Thay YOUR_API_KEY_HERE bằng API Key của bạn
+
+no-permission: "&cBạn không có quyền."
+message-reload: "&aĐã tải lại cấu hình thành công!"
+
+format:
+  - "&b%player%: &7%message%"         # Tin nhắn từ người chơi
+  - "&bAI -> %player%: &a%message%"   # Phản hồi từ ChatGPT
+
+toggle:
+  enabled: "&aChatGPT đã được bật. Say Hi!"
+  disabled: "&cChatGPT đã được tắt."
+
